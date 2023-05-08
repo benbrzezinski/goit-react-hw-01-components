@@ -1,7 +1,7 @@
 .profile {
   max-width: 250px;
-  background-color: #fff;
-  border-radius: 5px;
+  background-color: var(--color-bg-sec);
+  border-radius: var(--border-radius);
   box-shadow: 8px 8px 24px 0 rgba(66, 68, 90, 1);
   margin-top: 50px;
 }
@@ -16,7 +16,7 @@
 
 .avatar {
   width: 100px;
-  background-color: #eee;
+  background-color: var(--color-bg-main);
   clip-path: circle(48.7% at 50% 50%);
   margin-bottom: 15px;
 }
@@ -26,21 +26,21 @@
 }
 
 .tag {
-  font-size: 14px;
-  color: grey;
+  font-size: var(--font-size-sec);
+  color: var(--color-text-sec);
   margin-bottom: 4px;
 }
 
 .location {
-  font-size: 14px;
-  color: grey;
+  font-size: var(--font-size-sec);
+  color: var(--color-text-sec);
 }
 
 .stats {
   display: flex;
   justify-content: center;
-  background-color: rgb(210, 212, 224);
-  border-radius: 0 0 5px 5px;
+  background-color: var(--color-bg-third);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 .item {
@@ -49,20 +49,20 @@
   align-items: center;
   justify-content: center;
   gap: 2px;
-  border-top: 1px solid #9e9d9d;
+  border-top: 1px solid var(--color-border);
   width: 83px;
   height: 75px;
 }
 
 .item:not(:last-child) {
-  border-right: 1px solid #9e9d9d;
+  border-right: 1px solid var(--color-border);
 }
 
 .label {
-  font-size: 13px;
-  color: rgb(105, 112, 122);
+  font-size: var(--font-size-third);
+  color: var(--color-text-third);
 }
 
 .quantity {
-  font-weight: 500;
+  font-weight: var(--font-weight);
 }
